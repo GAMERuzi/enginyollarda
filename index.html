@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Engin'in Yolu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="startScreen">
+    <h1>Engin'in Yolu 🚛</h1>
+    <button onclick="startGame()">Oyna</button>
+  </div>
+
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <div id="ui">⏱ Süre: <span id="timer">0</span> sn | 💰 Altın: <span id="gold">0</span></div>
+
+  <audio id="bgMusic" loop autoplay>
+    <source src="https://cdn.pixabay.com/download/audio/2022/11/03/audio_824e59d4f2.mp3?filename=lofi-study-112191.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
